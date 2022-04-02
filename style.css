@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Inter Regular';
+    src: url(fonts/Inter-3/Inter-Desktop/Inter-Regular.otf)
+
+}
+
+@font-face {
+    font-family: 'Inter Medium';
+    src: url(fonts/Inter-3/Inter-Desktop/Inter-Medium.otf)
+
+}
+
+@font-face {
+    font-family: 'Inter Bold';
+    src: url(fonts/Inter-3/Inter-Desktop/Inter-Bold.otf)
+
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'Inter Bold';
+    color:#2A2A28;
+    padding-top: 30vh;
+    padding-bottom: 10vh;
+    padding-left: 12vh;
+    margin: 0vh;
+
+}
+
+h2 {
+    font-size: 3em;
+    font-family: 'Inter Medium';
+    color:#2A2A28;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+    padding-left: 12vh;
+    margin: 0vh;
+
+}
+
+.button {
+    background-color: #EBECE0;
+    width: 10em;
+    height: 3.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #2A2A28;
+    font-size: 25px;
+    font-family: 'Inter Bold';
+    margin: 0;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.hero {
+    background-color: #EBECE0;
+    height: 100vh;
+
+}
+
+.yellow {
+    background-color: #d7e1b9;
+    height: 100vh;
+}
+
+.green {
+    background-color: #efd992;
+    height: 100vh;
+}
+
+.blue {
+    background-color: #96b3b5;
+    height: 100vh;
+}
+
+.black {
+    background-color: #EBECE0;
+    height: 100vh;
+}
